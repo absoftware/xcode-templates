@@ -29,8 +29,8 @@ Please take under your attention that Xcode templates allow to create only files
 
 **MVVM** template creates files:
 
-* `<ModuleName>ViewController.swift`
+* **<ModuleName>ViewController.swift**
 	* `class <ModuleName>ViewController: <SubclassViewController>, <ModuleName>ViewModelDelegate`
-* `<ModuleName>ViewModel.swift`
+* **<ModuleName>ViewModel.swift**
 	* `protocol <ModuleName>ViewModelDelegate`
 	* `class <ModuleName>ViewModel`
