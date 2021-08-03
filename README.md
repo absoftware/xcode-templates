@@ -104,7 +104,7 @@ class <ModuleName>ViewController: UIViewController, <ModuleName>ViewModelDelegat
 
     // Properties go here
 
-	// MARK: - UIViewController methods
+    // MARK: - UIViewController methods
 
     override func viewDidLoad() {
         super.viewDidLoad()

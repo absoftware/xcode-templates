@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viewControllerSubclass___, ___
 
     // Properties go here
 
-	// MARK: - UIViewController methods
+    // MARK: - UIViewController methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
