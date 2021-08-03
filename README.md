@@ -19,13 +19,13 @@ It will copy all templates to your `${HOME}/Library/Developer/Xcode/Templates` d
 
 ## Information
 
-> ⚠️ Xcode templates allow to create two kind of templates. First one is **project template** which allows to create entire project from scratch. This kind of template allows to use subfolders and build hierarchy of files. This project doesn't deliver templates of this kind for now. Second type is just flat list of files. **Xcode** doesn't allow to create subfolders when using **Xcode** ➡ **File** ➡ **New** ➡ **File...** dialog. Templates delivered in this project use this kind of templates. So it will be always flat list of files without subfolders.
+> ⚠️ Xcode templates allow to create two kind of templates. First one is **project template** which allows to create entire project from scratch. This kind of template allows to use subfolders and build hierarchy of files. This project doesn't deliver templates of this kind for now. Second type is just flat list of files. **Xcode** doesn't allow to create subfolders when using **Xcode** → **File** → **New** → **File...** dialog. Templates delivered in this project use this kind of templates. So it will be always flat list of files without subfolders.
 
 ## Usage
 
 1. Create or open existing iOS project in **Xcode**.
 1. Create group for you MVVM module in Navigator, for example `MyModule`.
-1. Go to **Xcode** ➡ **File** ➡ **New** ➡ **File...** and select **iOS** tab.
+1. Go to **Xcode** → **File** → **New** → **File...** and select **iOS** tab.
 1. Scroll to **AB Software** section at the bottom.
 1. Select template, for example **MVVM**.
 1. Type name of module and configure other options.
