@@ -12,6 +12,13 @@ PROJECT_TEMPLATES="${XCODE_TEMPLATES}/Project Templates/AB Software"
 mkdir -p "${FILE_TEMPLATES}"
 mkdir -p "${PROJECT_TEMPLATES}"
 
-# Reinstall MVVM template
-rm -rf "${FILE_TEMPLATES}/MVVM.xctemplate"
-cp -rv "File Templates/MVVM.xctemplate" "${FILE_TEMPLATES}/"
+# Reinstall all templates
+for TEMPLATE in $(ls "File Templates"); do
+	rm -rf "${FILE_TEMPLATES}/${TEMPLATE}"
+	cp -rv "File Templates/${TEMPLATE}" "${FILE_TEMPLATES}/"
+done
+
+# Notify about completed task
+echo ""
+echo "    PLEASE RESTART XCODE"
+echo ""

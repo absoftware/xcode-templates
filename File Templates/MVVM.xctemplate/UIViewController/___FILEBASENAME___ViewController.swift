@@ -1,30 +1,28 @@
 //___FILEHEADER___
 //  MVVM module
-//  Template designed by Ariel Bogdziewicz (AB Software).
+//  Template designed by Ariel Bogdziewicz.
 //
 
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viewControllerSubclass___, ___VARIABLE_productName___ViewModelDelegate {
 
+    // MARK: - Subviews
+
+    // Subviews go here
+
     // MARK: - Dependencies
     
     var viewModel: ___VARIABLE_productName___ViewModel!
-    
+
     // MARK: - Properties
-    
-    // Properties here...
+
+    // Properties go here
 
 	// MARK: - UIViewController methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Create view model.
-        self.viewModel = ___VARIABLE_productName___ViewModel()
-        self.viewModel.delegate = self
-
-        // Initialize other things here...
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,8 +48,12 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viewControllerSubclass___, ___
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ methods
     
     // Custom methods here...
-    
+
     // MARK: - ___VARIABLE_productName___ViewModelDelegate methods
     
     // Delegate methods here...
+
+    // MARK: - Actions
+
+    // UI actions here...
 }

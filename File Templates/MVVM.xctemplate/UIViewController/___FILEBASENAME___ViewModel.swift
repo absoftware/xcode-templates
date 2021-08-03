@@ -1,11 +1,11 @@
 //___FILEHEADER___
 //  MVVM module
-//  Template designed by Ariel Bogdziewicz (AB Software).
+//  Template designed by Ariel Bogdziewicz.
 //
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___Delegate: class {
+protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
     // Specify callback methods for view controller.
 }
 
@@ -14,6 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     // MARK: - Dependencies
     
     weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?
+    private let flowController: ___VARIABLE_productName___FlowController
     
     // MARK: - Properties
     
@@ -21,11 +22,11 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     
     // MARK: - Initializers
     
-    init() {
-        // Do some initialization.
+    init(flowController: ___VARIABLE_productName___FlowController) {
+        self.flowController = flowController
     }
     
-    // MARK: - Private methods
+    // MARK: - Actions
     
-    // Private methods here...
+    // Handlers of UI actions here...
 }
