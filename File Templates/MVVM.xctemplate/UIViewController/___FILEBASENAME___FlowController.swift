@@ -9,10 +9,10 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     
     // MARK: - Dependencies
 
-    weak var navigationController: UINavigationController?
-    weak var parentController: UIViewController?
-    weak var viewController: ___VARIABLE_productName___ViewController!
-    let dependencyManager: DependencyManager
+    private weak var navigationController: UINavigationController?
+    private weak var parentController: UIViewController?
+    private weak var viewController: ___VARIABLE_productName___ViewController!
+    private let dependencyManager: DependencyManager
 
     // MARK: - Initializers
 
