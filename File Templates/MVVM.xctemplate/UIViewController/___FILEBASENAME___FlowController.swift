@@ -5,8 +5,12 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ {
-    
+protocol ___VARIABLE_productName___FlowProtocol: AnyObject {
+    // Specify navigation actions exposed for view model here...
+}
+
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___FlowProtocol {
+
     // MARK: - Dependencies
 
     private weak var navigationController: UINavigationController?
@@ -23,7 +27,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
         self.dependencyManager = dependencyManager
     }
 
-    // MARK: - Actions
+    // MARK: - ___VARIABLE_productName___FlowProtocol actions
 
-    // Navigation actions here...
+    // Implement navigation actions here...
 }

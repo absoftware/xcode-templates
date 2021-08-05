@@ -6,7 +6,7 @@
 import Foundation
 
 protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
-    // Specify callback methods for view controller.
+    // Specify callback methods for view controller here...
 }
 
 class ___FILEBASENAMEASIDENTIFIER___ {
@@ -14,7 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     // MARK: - Dependencies
     
     weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?
-    private let flowController: ___VARIABLE_productName___FlowController
+    private let flowController: ___VARIABLE_productName___FlowProtocol
     
     // MARK: - Properties
     
@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     
     // MARK: - Initializers
     
-    init(flowController: ___VARIABLE_productName___FlowController) {
+    init(flowController: ___VARIABLE_productName___FlowProtocol) {
         self.flowController = flowController
     }
     
